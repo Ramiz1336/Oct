@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2" as="font" crossorigin=""
+        type="font/woff2">
+    <link rel="stylesheet" href="css/8158f79d21472b15.css" crossorigin="" data-precedence="next">
+    <link rel="preload" href="/_next/static/chunks/webpack-7f9b7d805eb67408.js" as="script" fetchpriority="low"
+        crossorigin="">
+    <link rel="stylesheet" href="./css/8158f79d21472b15.css">
+    <script src="js/fd9d1056-d111de830d258a10.js" async="" crossorigin=""></script>
+    <script src="js/864-953fded864edfbad.js" async="" crossorigin=""></script>
+    <script src="js/main-app-8f13c08947745519.js" async="" crossorigin=""></script>
+    <title>OctoHub 🔥</title>
+    <meta name="description" content="celebration hacktober fest 2023">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="32x32">
+    <meta name="next-size-adjust">
+    <script src="js/polyfills-c67a75d1b6f99dc8.js" crossorigin="" nomodule=""></script>
+</head>
+
+<body
+    class="__className_e66fe9 bg-gradient-to-tr from-[#150923] to-[#000] overflow-x-hidden selection:text-white selection:bg-[#ff3e3e] text-white">
+    <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+    <div class="w-full p-5 sticky top-0 left-0 backdrop-blur-xl flex items-center justify-between z-[999]">
+        <div
+            class="w-[100px] h-[100px] bg-gradient-to-br from-[#f9b9ff] to-[#2600ff] shadow shadow-[#000] absolute blur-3xl animate-spin rounded-full -top-3 z-[1] -left-3">
+        </div>
+        <div class=" relative z-[99]"><a class="text-3xl font-[100]" href="/"><span class="text-[#fff]">Octo</span><span
+                    class="text-[#ff1b7a] font-[600]">Hub</span>.tech</a></div>
+        <div class="gap-4 md:flex hidden"><a class="text-base text-white font-[200]" href="/">Home</a><a
+                class="text-base text-white font-[200]" href="#about">About</a><a
+                class="text-base text-white font-[200]" href="#schedule">Schedule</a><a
+                class="text-base text-white font-[200]" href="#rewards">Rewards</a><a
+                class="text-base text-white font-[200]" href="#sponsors">Sponsors</a><a
+                class="text-base text-white font-[200]" href="/tutorials">Tutorials</a></div>
+        <div class="md:block hidden"><button
+                class="flex items-center gap-1 bg-white px-5 py-2 rounded-md text-black"><svg stroke="currentColor"
+                    fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="20" width="20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                    </path>
+                </svg><span class="">Github</span></button></div>
+        <div class=" md:hidden"><button class="text-3xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                    viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg></button></div>
+        <div
+            class="w-0 h-screen overflow-hidden fixed top-0 right-0 bg-gradient-to-tr from-[#000] to-[#26002b] transition-all duration-300">
+            <div class="text-right p-5"><button class="text-3xl p-1"><svg stroke="currentColor" fill="currentColor"
+                        stroke-width="0" viewBox="0 0 1024 1024" fill-rule="evenodd" height="1em" width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M799.855 166.312c.023.007.043.018.084.059l57.69 57.69c.041.041.052.06.059.084a.118.118 0 0 1 0 .069c-.007.023-.018.042-.059.083L569.926 512l287.703 287.703c.041.04.052.06.059.083a.118.118 0 0 1 0 .07c-.007.022-.018.042-.059.083l-57.69 57.69c-.041.041-.06.052-.084.059a.118.118 0 0 1-.069 0c-.023-.007-.042-.018-.083-.059L512 569.926 224.297 857.629c-.04.041-.06.052-.083.059a.118.118 0 0 1-.07 0c-.022-.007-.042-.018-.083-.059l-57.69-57.69c-.041-.041-.052-.06-.059-.084a.118.118 0 0 1 0-.069c.007-.023.018-.042.059-.083L454.073 512 166.371 224.297c-.041-.04-.052-.06-.059-.083a.118.118 0 0 1 0-.07c.007-.022.018-.042.059-.083l57.69-57.69c.041-.041.06-.052.084-.059a.118.118 0 0 1 .069 0c.023.007.042.018.083.059L512 454.073l287.703-287.702c.04-.041.06-.052.083-.059a.118.118 0 0 1 .07 0Z">
+                        </path>
+                    </svg></button></div>
+            <div class="p-5"><a
+                    class="text-xl flex items-center justify-between mb-3 w-full p-3 border border-[#363036] rounded-xl text-white font-[200]"
+                    href="/"><span>Home</span><span><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 32 32" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 12.96875 4.28125 L 11.53125 5.71875 L 21.8125 16 L 11.53125 26.28125 L 12.96875 27.71875 L 23.96875 16.71875 L 24.65625 16 L 23.96875 15.28125 Z">
+                            </path>
+                        </svg></span></a><a
+                    class="text-xl flex items-center justify-between mb-3 w-full p-3 border border-[#363036] rounded-xl text-white font-[200]"
+                    href="#about"><span>About</span><span><svg stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 32 32" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 12.96875 4.28125 L 11.53125 5.71875 L 21.8125 16 L 11.53125 26.28125 L 12.96875 27.71875 L 23.96875 16.71875 L 24.65625 16 L 23.96875 15.28125 Z">
+                            </path>
+                        </svg></span></a><a
+                    class="text-xl flex items-center justify-between mb-3 w-full p-3 border border-[#363036] rounded-xl text-white font-[200]"
+                    href="#schedule"><span>Schedule</span><span><svg stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 32 32" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 12.96875 4.28125 L 11.53125 5.71875 L 21.8125 16 L 11.53125 26.28125 L 12.96875 27.71875 L 23.96875 16.71875 L 24.65625 16 L 23.96875 15.28125 Z">
+                            </path>
+                        </svg></span></a><a
+                    class="text-xl flex items-center justify-between mb-3 w-full p-3 border border-[#363036] rounded-xl text-white font-[200]"
+                    href="#rewards"><span>Rewards</span><span><svg stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 32 32" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 12.96875 4.28125 L 11.53125 5.71875 L 21.8125 16 L 11.53125 26.28125 L 12.96875 27.71875 L 23.96875 16.71875 L 24.65625 16 L 23.96875 15.28125 Z">
+                            </path>
+                        </svg></span></a><a
+                    class="text-xl flex items-center justify-between mb-3 w-full p-3 border border-[#363036] rounded-xl text-white font-[200]"
+                    href="#sponsors"><span>Sponsors</span><span><svg stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 32 32" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 12.96875 4.28125 L 11.53125 5.71875 L 21.8125 16 L 11.53125 26.28125 L 12.96875 27.71875 L 23.96875 16.71875 L 24.65625 16 L 23.96875 15.28125 Z">
+                            </path>
+                        </svg></span></a><a
+                    class="text-xl flex items-center justify-between mb-3 w-full p-3 border border-[#363036] rounded-xl text-white font-[200]"
+                    href="/tutorials"><span>Tutorials</span><span><svg stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 32 32" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 12.96875 4.28125 L 11.53125 5.71875 L 21.8125 16 L 11.53125 26.28125 L 12.96875 27.71875 L 23.96875 16.71875 L 24.65625 16 L 23.96875 15.28125 Z">
+                            </path>
+                        </svg></span></a><button
+                    class="text-xl flex items-center justify-between mb-3 w-full p-3 border border-[#363036] rounded-xl text-white font-[200]"><span>Githiub
+                        Login</span><span><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 32 32" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M 12.96875 4.28125 L 11.53125 5.71875 L 21.8125 16 L 11.53125 26.28125 L 12.96875 27.71875 L 23.96875 16.71875 L 24.65625 16 L 23.96875 15.28125 Z">
+                            </path>
+                        </svg></span></button></div>
+            <div>
+                <div class="p-5 absolute bottom-20 w-full flex items-center justify-center"><a
+                        class="text-3xl font-[500] p-3 " href="https://www.instagram.com/cdh.iter/"><svg
+                            stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z">
+                            </path>
+                        </svg></a><a class="text-3xl font-[500] p-3 " href="https://www.facebook.com/cdh.iter"><svg
+                            stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z">
+                            </path>
+                        </svg></a><a class="text-3xl font-[500] p-3 "
+                        href="https://www.linkedin.com/company/career-development-hub/"><svg stroke="currentColor"
+                            fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                            </path>
+                        </svg></a><a class="text-3xl font-[500] p-3 " href="https://discord.gg/SuCPEdssuy"><svg
+                            stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em"
+                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z">
+                            </path>
+                        </svg></a></div>
+            </div>
+        </div>
+    </div>
+    <div><!--$-->
+        <main class="">
+            <section id="home" class="w-full min-h-[90vh] flex items-center justify-center flex-col px-5 pt-20">
+                <div class="w-full flex text-center items-center justify-center flex-col">
+                    <div class="flex  items-center"><img alt="" loading="lazy" width="60" height="60" decoding="async"
+                            data-nimg="1" class="mr-3" style="color:transparent"
+                            srcset="images/image_23.png 1x, images/image_8.png 2x" src="images/image_8.png"><img alt=""
+                            loading="lazy" width="180" height="180" decoding="async" data-nimg="1"
+                            class="brightness-150 contrast-125" style="color:transparent"
+                            srcset="images/image_22.png 1x, images/image_3.png 2x" src="images/image_3.png"><img alt=""
+                            loading="lazy" width="70" height="70" decoding="async" data-nimg="1"
+                            class="brightness-100 contrast-150 rounded-full " style="color:transparent"
+                            srcset="images/image_16.png 1x, images/image_5.png 2x" src="images/image_5.png"><img alt=""
+                            loading="lazy" width="80" height="80" decoding="async" data-nimg="1"
+                            class="brightness-100 contrast-150 rounded-full " style="color:transparent"
+                            srcset="images/image_17.png 1x, images/image.png 2x" src="images/image.png"><img alt=""
+                            loading="lazy" width="70" height="70" decoding="async" data-nimg="1"
+                            class="brightness-100 contrast-150 rounded-full " style="color:transparent"
+                            src="images/Copy%20of%20Copy%20of%20Pink%20Black%20Photocentric%20Neon%20Tech%20Talk%20Podcast%20Instagram%20Po_20231101_232939_0000.svg"><img
+                            alt="" loading="lazy" width="90" height="90" decoding="async" data-nimg="1"
+                            class="brightness-100 contrast-100" style="color:transparent"
+                            srcset="images/image_19.png 1x, images/image_2.png 2x" src="images/image_2.png"></div>
+                    <p
+                        class="text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#c23dff] to-[#ff002f]  font-[200]">
+                        Celebrating The<!-- --> <span
+                            class="text-transparent bg-clip-text font-[800] bg-gradient-to-r from-[#3dc5ff] to-[#1eff00]">Hacktober</span>
+                        <!-- -->Fest<!-- --> <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r font-[800] from-[#ff3d6d] to-[#ffe100]">2023</span>
+                    </p>
+                    <p
+                        class="text-transparent pt-1 font-[800]  text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-[#3dc5ff] to-[#1eff00]">
+                        With<!-- --> <span
+                            class="text-transparent font-[800] bg-clip-text bg-gradient-to-r from-[#ff3d6d] to-[#ffe100]">OctoHub</span>
+                    </p>
+                </div>
+                <div
+                    class="w-[100px] h-[100px] top-1/2 left-0 -translate-x-1/2 bg-gradient-to-br from-[#ee35ff] to-[#000dff] shadow shadow-[#000] absolute blur-l rounded-full">
+                </div>
+                <div
+                    class="w-[20px] h-[20px] top-[10%] left-[20%] -translate-x-1/2 bg-gradient-to-br from-[#ee35ff] to-[#000dff] shadow shadow-[#000] absolute blur-l rounded-full">
+                </div>
+                <div
+                    class="w-[20px] h-[20px] top-[18%] left-[80%] -translate-x-1/2 bg-gradient-to-br from-[#35abff] to-[#000dff] shadow shadow-[#000] absolute blur-l rounded-full">
+                </div>
+                <div
+                    class="w-[20px] h-[20px] top-[10%] left-[20%] -translate-x-1/2 bg-gradient-to-br from-[#ee35ff] to-[#000dff] shadow shadow-[#000] absolute blur-l rounded-full">
+                </div>
+                <div
+                    class="w-[40px] h-[40px] top-[20%] left-[93%] -translate-x-1/2 bg-gradient-to-br from-[#ee35ff] to-[#000dff] shadow shadow-[#000] absolute blur-l rounded-full">
+                </div>
+                <div class="w-full flex flex-col items-center justify-center mt-5 mb-10">
+                    <div class="mb-10 flex items-center gap-2"><a href="/tutorials"><button
+                                class="bg-gradient-to-br text-xl flex items-center from-[#ff0808] to-[#ff00ea] px-6 py-2 gap-1 rounded-md"><span
+                                    class="">Tutorials</span></button></a><button
+                            class="bg-gradient-to-br text-xl flex items-center from-[#e608ff] to-[#003cff] px-6 py-2 gap-1 rounded-md"><span
+                                class="">Contribute</span></button></div>
+                    <p class="text-xl md:text-4xl uppercase font-[300]">Hackathon Starts In</p><span
+                        class="flex items- gap-1 font-[700] text-3xl md:text-8xl z-[99] relative"><span
+                            class="text-transparent bg-clip-text bg-gradient-to-r font-[800] from-[#ff3d6d] to-[#0051ff] rounded-md  shadow-md  text-center"><span
+                                class="block">00</span><span
+                                class="block font-[200] uppercase text-xs md:text-xl text-white">days</span></span><span
+                            class="animate-pulse relative">:</span><span
+                            class="text-transparent bg-clip-text bg-gradient-to-r font-[800] from-[#ff3d6d] to-[#0051ff] rounded-md  shadow-md text-center"><span
+                                class="block">00</span><span
+                                class="block font-[200] uppercase text-xs md:text-xl text-white">hours</span></span><span
+                            class="animate-pulse relative">:</span><span
+                            class="text-transparent bg-clip-text bg-gradient-to-r font-[800] from-[#ff3d6d] to-[#0051ff] rounded-md  shadow-md text-center"><span
+                                class="block">00</span><span
+                                class="block font-[200] uppercase text-xs md:text-xl text-white">minutes</span></span><span
+                            class="animate-pulse relative">:</span><span
+                            class="text-transparent bg-clip-text bg-gradient-to-r font-[800] from-[#ff3d6d] to-[#0051ff] rounded-md  shadow-md text-center"><span
+                                class="block"> <!-- -->59</span><span
+                                class="block font-[200] uppercase text-xs md:text-xl text-white">seconds</span></span></span><img
+                        alt="" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="mt-10 mb-5"
+                        style="color:transparent" srcset="images/image_24.png 1x, images/image_7.png 2x"
+                        src="images/image_7.png">
+                </div>
+            </section>
+            <section class="text-center w-full p-5" id="about">
+                <p
+                    class="text-3xl md:text-7xl font-[900] pt-20 pb-4 text-transparent bg-clip-text bg-gradient-to-br from-[#ff9d00] to-[#00ff04]">
+                    About Fest <span class="text-red-100">🔥</span></p>
+                <div class="w-full">
+                    <p class="text-xs md:text-2xl w-full font-[200]">Hacktoberfest is DigitalOcean<!-- -->'<!-- -->s
+                        annual event that encourages people to contribute to open source throughout October. Much of
+                        modern tech infrastructure—including some of DigitalOcean s own products—relies on open-source
+                        projects built and maintained by passionate people who often don<!-- -->'<!-- -->t have the
+                        staff or budgets to do much more than keep the project alive. Hacktoberfest is all about giving
+                        back to those projects, sharpening skills, and celebrating all things open source, especially
+                        the people that make open source so special. For the past 10 years, thousands of people—coders
+                        and non-coders alike—have participated in Hacktoberfest to support the projects they use and
+                        love, learn and practice skills that will enhance their careers, and meet new people who love
+                        open source as much as they do.</p>
+                    <div class="w-full flex items-center justify-center"><img alt="" loading="lazy" width="500"
+                            height="500" decoding="async" data-nimg="1" class="mt-10 mb-5" style="color:transparent"
+                            srcset="images/image_21.png 1x, images/image_4.png 2x" src="images/image_4.png"></div>
+                </div>
+            </section>
+            <section class="w-full p-5" id="schedule">
+                <p class="text-white text-center font-[700] text-3xl md:text-6xl pb-5">Schedule</p>
+                <div class="w-full grid md:grid-cols-3 place-content-center gap-6">
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#ffc400] to-[#00ffb7] rounded-md">
+                            October 7, 2023</p>
+                        <p class="py-2 tracking-widest text-xs">Introduction to Git, GitHub, and Hacktoberfest October
+                            6, 2023 Whether you're a beginner or an experienced developer, Git and GitHub are essential
+                            tools for managing your code and collaborating with others. In this workshop, we'll give you
+                            a hands-on introduction to Git and GitHub, and teach you how to participate in
+                            Hacktoberfest, a month-long event that encourages everyone to contribute to open source
+                            software.</p>
+                    </div>
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#ffc400] to-[#ffe100] rounded-md">
+                            October 8, 2023</p>
+                        <p class="py-2 tracking-widest text-xs">Certainly! Here's a more creative and engaging way to
+                            describe your upcoming workshop on HTML, CSS, and JavaScript for beginners at OctoHub 2023:
+                            🌟 Unleash Your Web Wizardry at OctoHub 2023! 🌟 🚀 Join the Digital Revolution - Learn
+                            HTML, CSS, and JavaScript from Scratch! 🚀 🌐 Are you ready to dive headfirst into the
+                            exciting world of web development?</p>
+                    </div>
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#ffc400] to-[#ff0000] rounded-md">
+                            October 9, 2023</p>
+                        <p class="py-2 tracking-widest text-xs">🚀 Conquer the Back-End with Express 🚀 Express.js is
+                            your ticket to becoming a back-end wizard. Discover the art of building robust, feature-rich
+                            APIs effortlessly. From routing to middleware, you'll master it all and craft web apps that
+                            leave a lasting impression. 🌈 Soar to New Heights with Node.js 🌈 Node.js is the engine
+                            that drives the web. Learn how to develop server-side applications with lightning speed and
+                            efficiency. Real-time applications, chatbots, and more are at your fingertips!</p>
+                    </div>
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#ff00ea] to-[#ffb700] rounded-md">
+                            October 10, 2023</p>
+                        <p class="py-2 tracking-widest text-xs">Flutter: Where Dreams Take Flight 📱 Flutter is not just
+                            a framework; it's the canvas of your imagination. Join us to explore the incredible world of
+                            Flutter and build beautiful, cross-platform apps that will leave your users spellbound. From
+                            pixel-perfect UIs to seamless animations, Flutter has it all!</p>
+                    </div>
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#1500ff] to-[#ff00ff] rounded-md">
+                            October 11, 2023</p>
+                        <p class="py-2 tracking-widest text-xs">💡 Classic Machine Learning: Where Curiosity Meets Code
+                            💡 Machine learning is more than just technology; it's the bridge to the future. Join us and
+                            uncover the secrets of classic machine learning, where data turns into insights, and
+                            algorithms become your allies. Experience the thrill of making predictions and uncovering
+                            hidden patterns!</p>
+                    </div>
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#1500ff] to-[#00ddff] rounded-md">
+                            October 15 & 22, 2023</p>
+                        <p class="py-2 tracking-widest text-xs">🤔 Got Questions? We've Got Answers! 🤔 Dive deep into
+                            the heart of OctoHub 2023's offerings. Whether you're pondering event logistics, seeking
+                            clarity on the most challenging pull requests, or in need of project guidance, our experts
+                            are here to illuminate your path. 🧠 Embrace the Power of Knowledge Sharing 🧠 Our
+                            Doubt-Busting Session isn't just about answers; it's an opportunity to connect, learn, and
+                            grow.</p>
+                    </div>
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#ffffff] to-[#c9ffd2] rounded-md">
+                            October 30, 2023</p>
+                        <p class="py-2 tracking-widest text-xs">Event will be closing... rewards will be distributed and
+                            certificates will be given!</p>
+                    </div>
+                </div>
+            </section>
+            <section class="w-full p-5" id="sponsors"><br>
+                <p class="text-center font-[800] md:text-5xl text-3xl">Our Sponsors📢🎉</p><br>
+                <div class="w-full grid md:grid-cols-2 place-content-center gap-6">
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#ffc400] to-[#ffe100] rounded-md">
+                            Titile Sponsors <span class="text-white">🎉</span></p><br>
+                        <div class="w-full flex text-center items-center justify-center flex-col">
+                            <div class="flex gap-20  items-center"><img alt="" loading="lazy" width="200" height="200"
+                                    decoding="async" data-nimg="1" class="brightness-100 contrast-150 rounded-full  "
+                                    style="color:transparent" srcset="images/image_18.png 1x, images/image_6.png 2x"
+                                    src="images/image_6.png"><img alt="" loading="lazy" width="190" height="190"
+                                    decoding="async" data-nimg="1" class="brightness-100 contrast-150 rounded-full "
+                                    style="color:transparent" srcset="images/image.png 1x, images/image_1.png 2x"
+                                    src="images/image_1.png"></div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full text-center font-[200] bg-gradient-to-tr from-[#000] to-[#000000] p-5 rounded-xl">
+                        <p
+                            class="text-4xl font-[800] text-transparent bg-clip-text bg-gradient-to-br from-[#ffc400] to-[#ffe100] rounded-md">
+                            Community Sponsors <span class="text-white">🎉</span></p><br>
+                        <div class="w-full flex text-center items-center justify-center flex-col">
+                            <div class="flex gap-20 items-center"><img alt="" loading="lazy" width="150" height="150"
+                                    decoding="async" data-nimg="1" class="brightness-100 contrast-150 rounded-full "
+                                    style="color:transparent"
+                                    src="images/Copy%20of%20Copy%20of%20Pink%20Black%20Photocentric%20Neon%20Tech%20Talk%20Podcast%20Instagram%20Po_20231101_232939_0000.svg"><img
+                                    alt="" loading="lazy" width="220" height="220" decoding="async" data-nimg="1"
+                                    class="brightness-100 contrast-150 rounded-full " style="color:transparent"
+                                    srcset="images/image_20.png 1x, images/image_9.png 2x" src="images/image_9.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="w-full p-5" id="rewards">
+                <p class="text-center font-[800] md:text-5xl text-3xl">✨ Rewards ✨</p><br><br>
+                <div class="w-full gap-5 flex md:flex-row flex-col items-center justify-center">
+                    <div class="md:w-1/2 flex items-center justify-center"><img alt="" loading="lazy" width="500"
+                            height="500" decoding="async" data-nimg="1" class="mt-10 mb-5 rounded-md"
+                            style="color:transparent" srcset="images/image_11.jpg 1x, images/image_5.jpg 2x"
+                            src="images/image_5.jpg"></div>
+                    <div class="md:w-1/2 flex items-center justify-center">
+                        <ul class="md:text-3xl space-y-2 font-[200]">
+                            <li>1. The first winner will receive a GFG laptop bag.</li>
+                            <li>3. Participants who secure 2nd, 3rd, 4th, and 5th place will be awarded a GFG t-shirt.
+                            </li>
+                            <li>4. The top five winners will receive a 1500 rupees GFG course coupon.</li>
+                            <li> 5.All the registered participants will be awarded course coupons of 300 rupees</li>
+                            <li> 6.Certificate of Achievement to winners(Shareable) E-Certificates to all Participants.
+                            </li>
+                            <li>7. More Exciting Prizes coming soon ...</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="w-full p-5" id="admins">
+                <p
+                    class="text-3xl text-center md:text-7xl font-[900] pt-20 pb-8 text-transparent bg-clip-text bg-gradient-to-br from-[#ff9d00] to-[#e600ff]">
+                    Organizers <span class="text-red-100">🚀</span></p>
+                <div class="w-full flex items-center flex-wrap justify-center">
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#491200] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                src="images/maam.svg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Anukampa Behera</h2>
+                            <h2 class="text-sm font-normal">DevOps | AI and ML Researcher</h2>
+                            <h2 class="text-sm font-normal">(Faculty Co-ordinator, Mentor & Lead)</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/anukampa-behera-a1393849/"
+                                    target="_blank" rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_26.png 1x, images/image_11.png 2x" src="images/image_11.png"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Suhani Mohanty</h2>
+                            <h2 class="text-sm font-normal">Blockchain researcher | Web3 practitioner</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/suhani18" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                src="images/dik.svg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Diksha Jethwa</h2>
+                            <h2 class="text-sm font-normal">Front end web Developer | UI UX designer</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/diksha-jethwa/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_25.png 1x, images/image_13.png 2x" src="images/image_13.png"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Ankita Lenka</h2>
+                            <h2 class="text-sm font-normal">Python| matlab-Simulink</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/ankita-lenka/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_9.jpg 1x, images/image.jpg 2x" src="images/image.jpg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Surbhi Tiwary</h2>
+                            <h2 class="text-sm font-normal">Front-End Web Development | Flutter and Android Development
+                            </h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/surbhi-tiwary-7a29a0266/"
+                                    target="_blank" rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_27.png 1x, images/image_15.png 2x" src="images/image_15.png"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Pawan Kumar</h2>
+                            <h2 class="text-sm font-normal">Flutter | App Developer | Large Language Model Explorer</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/pawan-kumar-9490581b5/"
+                                    target="_blank" rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_10.jpg 1x, images/image_1.jpg 2x" src="images/image_1.jpg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Rohit Patel</h2>
+                            <h2 class="text-sm font-normal">Machine Learning Developer</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/rohit-patel03/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_8.jpg 1x, images/image_4.jpg 2x" src="images/image_4.jpg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Shashank Pandey</h2>
+                            <h2 class="text-sm font-normal">React JS Developer | Python</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/shashank---pandey/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                src="images/me.svg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Chinmaya Sa</h2>
+                            <h2 class="text-sm font-normal">Fullstck & React Native Developer | YouTuber</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/chinmaya-sa-60a594239/"
+                                    target="_blank" rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                src="images/anshu.svg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Anshuman Panda</h2>
+                            <h2 class="text-sm font-normal">Frontend Developer | Artificial Intelligence | Machine
+                                Learning </h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/anshuman-panda-575562258/"
+                                    target="_blank" rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                src="images/ramiz.jpg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Sk Ramiz Raja</h2>
+                            <h2 class="text-sm font-normal">React Developer | Devops</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/sk-ramiz-raja-8a72651b6/"
+                                    target="_blank" rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                src="images/raj.jpg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Raj Sarkar</h2>
+                            <h2 class="text-sm font-normal">MERN Stack Developer | Java</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/raj-sarkar-59b61b29a/"
+                                    target="_blank" rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_7.jpg 1x, images/image_3.jpg 2x" src="images/image_3.jpg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Anurag Kumar</h2>
+                            <h2 class="text-sm font-normal">MERN stack developer | React Native developer | Devops</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/anuragkmr45/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="300" height="300" decoding="async" data-nimg="1" class="rotate-[10deg] scale-105"
+                                style="color:transparent" srcset="images/image_28.png 1x, images/image_10.png 2x"
+                                src="images/image_10.png"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Pranjeban Kara</h2>
+                            <h2 class="text-sm font-normal">DevOps | AWS | Azure | Docker | Kubernetes</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/pranjeban/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="300" height="300" decoding="async" data-nimg="1" class="rotate-[0deg] scale-105"
+                                style="color:transparent" srcset="images/image_29.png 1x, images/image_12.png 2x"
+                                src="images/image_12.png"></div>
+                        <div class="text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Suraj Kumar Sahu</h2>
+                            <h2 class="text-sm font-normal">INNOVATE ODISHA Runner Up | Innovater</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/surajkumarsahu01/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                    <div
+                        class=" p-5 relative w-[300px] bg-gradient-to-br from-[#000] to-[#1b0049] rounded-xl flex justify-center items-center flex-col m-3">
+                        <div class="w-[200px] h-[200px] rounded-full overflow-hidden"><img alt="" loading="lazy"
+                                width="200" height="200" decoding="async" data-nimg="1" style="color:transparent"
+                                srcset="images/image_6.jpg 1x, images/image_2.jpg 2x" src="images/image_2.jpg"></div>
+                        <div class=" text-center">
+                            <h2 class="text-2xl font-bold uppercase mt-2">Rohan Kumar Behera</h2>
+                            <h2 class="text-sm font-normal">IoT | Hardware Programmer | ML and Python Automation
+                                Developer</h2>
+                            <div class="w-full"><a href="https://www.linkedin.com/in/rohankumarbehera/" target="_blank"
+                                    rel="noreferrer"
+                                    class="w-full p-2 bg-white inline-block mt-5 text-black rounded-md">Open
+                                    Linkedin</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main><!--/$-->
+    </div>
+    <footer class="w-full bg-[#000] p-5 flex items-center justify-center">
+        <p class="text-center md:text-xl font-[200]">Built By<!-- --> <a href="https://t.me/joincdh" target="_blank"
+                rel="noreferrer" class="text-[#ff8c00]">CDH</a> <!-- -->💖<!-- --> <a href="https://www.devverse.io"
+                target="_blank" rel="noreferrer" class="text-[#00ffcc]">Dev Verse</a></p>
+    </footer>
+    <script src="js/webpack-7f9b7d805eb67408.js" crossorigin="" async=""></script>
+    <script>(self.__next_f = self.__next_f || []).push([0]); self.__next_f.push([2, null])</script>
+    <script>self.__next_f.push([1, "1:HL[\"/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/css/8158f79d21472b15.css\",\"style\",{\"crossOrigin\":\"\"}]\n0:\"$L3\"\n"])</script>
+    <script>self.__next_f.push([1, "4:I{\"id\":6054,\"chunks\":[\"272:static/chunks/webpack-7f9b7d805eb67408.js\",\"971:static/chunks/fd9d1056-d111de830d258a10.js\",\"864:static/chunks/864-953fded864edfbad.js\"],\"name\":\"\",\"async\":false}\n6:I{\"id\":1729,\"chunks\":[\"272:static/chunks/webpack-7f9b7d805eb67408.js\",\"971:static/chunks/fd9d1056-d111de830d258a10.js\",\"864:static/chunks/864-953fded864edfbad.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+    <script>self.__next_f.push([1, "7:I{\"id\":5925,\"chunks\":[\"358:static/chunks/bc9e92e6-3300a741fd2459ce.js\",\"214:static/chunks/82deed28-9eca6068fba18a89.js\",\"447:static/chunks/00cbbcb7-5ac32015c03b39d1.js\",\"222:static/chunks/4b494101-d659e86187c688dc.js\",\"982:static/chunks/93854f56-2c321caff602b368.js\",\"420:static/chunks/9081a741-4e630adc2159c3df.js\",\"712:static/chunks/3627521c-53215821da2ed4a7.js\",\"271:static/chunks/271-f7a1f14d0d8f5cc0.js\",\"411:static/chunks/411-a0528e64713451e6.js\",\"949:static/chunks/949-8dd7745304b086c1.js\",\"669:static/chunks/669-8309ef8ceb0f6075.js\",\"185:static/chunks/app/layout-f84bf4f94a109b5a.js\"],\"name\":\"Toaster\",\"async\":false}\n"])</script>
+    <script>self.__next_f.push([1, "8:I{\"id\":2585,\"chunks\":[\"358:static/chunks/bc9e92e6-3300a741fd2459ce.js\",\"214:static/chunks/82deed28-9eca6068fba18a89.js\",\"447:static/chunks/00cbbcb7-5ac32015c03b39d1.js\",\"222:static/chunks/4b494101-d659e86187c688dc.js\",\"982:static/chunks/93854f56-2c321caff602b368.js\",\"420:static/chunks/9081a741-4e630adc2159c3df.js\",\"712:static/chunks/3627521c-53215821da2ed4a7.js\",\"271:static/chunks/271-f7a1f14d0d8f5cc0.js\",\"411:static/chunks/411-a0528e64713451e6.js\",\"949:static/chunks/949-8dd7745304b086c1.js\",\"669:static/chunks/669-8309ef8ceb0f6075.js\",\"185:static/chunks/app/layout-f84bf4f94a109b5a.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+    <script>self.__next_f.push([1, "9:I{\"id\":1443,\"chunks\":[\"272:static/chunks/webpack-7f9b7d805eb67408.js\",\"971:static/chunks/fd9d1056-d111de830d258a10.js\",\"864:static/chunks/864-953fded864edfbad.js\"],\"name\":\"\",\"async\":false}\na:I{\"id\":8639,\"chunks\":[\"272:static/chunks/webpack-7f9b7d805eb67408.js\",\"971:static/chunks/fd9d1056-d111de830d258a10.js\",\"864:static/chunks/864-953fded864edfbad.js\"],\"name\":\"\",\"async\":false}\nc:I{\"id\":5146,\"chunks\":[\"272:static/chunks/webpack-7f9b7d805eb67408.js\",\"971:static/chunks/fd9d1056-d111de830d258a10.js\",\"864:stat"])</script>
+    <script>self.__next_f.push([1, "ic/chunks/864-953fded864edfbad.js\"],\"name\":\"\",\"async\":false}\nd:I{\"id\":1295,\"chunks\":[\"358:static/chunks/bc9e92e6-3300a741fd2459ce.js\",\"214:static/chunks/82deed28-9eca6068fba18a89.js\",\"271:static/chunks/271-f7a1f14d0d8f5cc0.js\",\"411:static/chunks/411-a0528e64713451e6.js\",\"669:static/chunks/669-8309ef8ceb0f6075.js\",\"964:static/chunks/964-3a5d4efaf0ee8796.js\",\"116:static/chunks/116-cb2461fb3dc114da.js\",\"931:static/chunks/app/page-75ab9a7da717c7ab.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+    <script>self.__next_f.push([1, "3:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8158f79d21472b15.css\",\"precedence\":\"next\",\"crossOrigin\":\"\"}]],[\"$\",\"$L4\",null,{\"buildId\":\"1NnglYr1sl7w5Gaxj36ld\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[false,\"$L5\"],\"globalErrorComponent\":\"$6\",\"children\":[null,[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__className_e66fe9 bg-gradient-to-tr from-[#150923] to-[#000] overflow-x-hidden selection:text-white selection:bg-[#ff3e3e] text-white\",\"children\":[[\"$\",\"$L7\",null,{\"position\":\"top-center\"}],[\"$\",\"$L8\",null,{}],[\"$\",\"div\",null,{\"children\":[\"$\",\"$L9\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"template\":[\"$\",\"$La\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"childProp\":{\"current\":[\"$Lb\",[\"$\",\"$Lc\",null,{\"propsForComponent\":{\"params\":{}},\"Component\":\"$d\",\"isStaticGeneration\":true}],null],\"segment\":\"__PAGE__\"},\"styles\":[]}]}],[\"$\",\"footer\",null,{\"className\":\"w-full bg-[#000] p-5 flex items-center justify-center\",\"children\":[\"$\",\"p\",null,{\"className\":\"text-center md:text-xl font-[200]\",\"children\":[\"Built By\",\" \",[\"$\",\"a\",null,{\"href\":\"https://t.me/joincdh\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"text-[#ff8c00]\",\"children\":\"CDH\"}],\" \",\"💖\",\" \",[\"$\",\"a\",null,{\"href\":\"https://www.devverse.io\",\"target\":\"_blank\",\"rel\":\"noreferrer\",\"className\":\"text-[#00ffcc]\",\"children\":\"Dev Verse\"}]]}]}]]}]}],null]}]]\n"])</script>
+    <script>self.__next_f.push([1, "5:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"OctoHub 🔥\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"celebration hacktober fest 2023\"}],[\"$\",\"meta\",\"3\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"link\",\"4\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"32x32\"}],[\"$\",\"meta\",\"5\",{\"name\":\"next-size-adjust\"}]]\nb:null\n"])</script>
+</body>
+
+</html>
